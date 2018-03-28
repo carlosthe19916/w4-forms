@@ -353,7 +353,7 @@ gulp.task('rollup-bundle', (cb) => {
       // the window object.
       // See https://github.com/rollup/rollup/wiki/JavaScript-API#globals for more.
 
-      // Angular dependencies
+      // Angular dependencies 
       '@angular/core': 'ng.core',
       '@angular/common': 'ng.common',
       '@angular/forms': 'ng.forms',
@@ -383,7 +383,7 @@ gulp.task('rollup-bundle', (cb) => {
       // Add any other dependency or peer dependency of your library here
       // This is required for UMD bundle users.
       // See https://github.com/tinesoft/generator-ngx-library/TROUBLESHOUTING.md if trouble
-
+      
 
     };
     const rollupBaseConfig = {
@@ -400,7 +400,7 @@ gulp.task('rollup-bundle', (cb) => {
           include: ['node_modules/rxjs/**']
         }),
         rollupSourcemaps(),
-        rollupNodeResolve({
+        rollupNodeResolve({ 
           jsnext: true,
           module: true,
           jail: distFolder, // to use final 'package.json' from 'dist/'
