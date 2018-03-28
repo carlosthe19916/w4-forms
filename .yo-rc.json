@@ -1,0 +1,36 @@
+{
+  "generator-ngx-library": {
+    "version": "5.7.1",
+    "authorName": "Carlos Feria",
+    "authorEmail": "carlosthe19916@gmail.com",
+    "githubUsername": "carlosthe19916",
+    "githubRepoName": "w4-forms",
+    "projectName": "w4-forms",
+    "projectVersion": "0.0.1",
+    "projectDescription": "Angular library built with ❤ using ngx-library yeoman generator.",
+    "projectKeywords": [
+      "ng",
+      "angular",
+      "library"
+    ],
+    "ngVersion": "4.0.0",
+    "ngModules": [
+      "core",
+      "common",
+      "forms"
+    ],
+    "otherDependencies": [],
+    "dependenciesRange": "^",
+    "ngPrefix": "w4",
+    "testingFramework": "karma",
+    "useGreenkeeper": true,
+    "useCompodoc": true,
+    "enforceNgGitCommitMsg": true,
+    "exclusions": [
+      "demo/src/jestGlobalMocks.ts",
+      "demo/src/setupJest.ts",
+      "config/jestGlobalMocks.ts",
+      "config/setupJest.ts"
+    ]
+  }
+}
