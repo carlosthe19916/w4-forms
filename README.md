@@ -75,4 +75,3 @@ export class OtherModule {
 ## License
 
 Copyright (c) 2018 Carlos Feria. Licensed under the MIT License (MIT)
-
