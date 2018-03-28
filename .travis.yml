@@ -10,8 +10,19 @@ addons:
       - google-chrome-stable
 
 language: node_js
+
+cache:
+  yarn: true
+  directories:
+    - ~/.npm
+
+notifications:
+  email: false
+
 node_js:
-  - "6"
+  - '9'
+  - '8'
+  - '6'
 
 before_script:
   - export DISPLAY=:99.0
@@ -20,8 +31,10 @@ before_script:
 
 script: gulp test:ci
 
-after_success: gulp coveralls
+after_success:
+  - gulp coveralls
+  - npm run travis-deploy-once "npm run semantic-release"
 
-cache:
-  yarn: true
-  
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
