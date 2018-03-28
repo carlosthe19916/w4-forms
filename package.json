@@ -1,7 +1,7 @@
 {
   "name": "w4-forms",
   "description": "Angular library built with ❤ using ngx-library yeoman generator.",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "homepage": "https://github.com/carlosthe19916/w4-forms",
   "author": {
     "name": "Carlos Feria",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/carlosthe19916/w4-forms.git"
+    "url": "https://github.com/carlosthe19916/w4-forms.git"
   },
   "license": "MIT",
   "keywords": [
@@ -25,27 +25,29 @@
     "start": "gulp build",
     "test": " gulp test",
     "demo": " gulp build:demo",
-    "check-travis": " travis-status --repo=carlosthe19916/w4-forms --branch=master --fail-pending || echo 'Not yet passing'"
+    "check-travis": " travis-status --repo=carlosthe19916/w4-forms --branch=master --fail-pending || echo 'Not yet passing'",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "@angular/core": "4.0.0",
     "@angular/common": "4.0.0",
     "@angular/forms": "4.0.0"
-   },
+  },
   "devDependencies": {
-    "@angular/compiler" : "4.0.0",
-    "@angular/platform-server" : "4.0.0",
-    "@angular/platform-browser" : "4.0.0",
-    "@angular/platform-browser-dynamic" : "4.0.0",
-    "@angular/compiler-cli" : "4.0.0",
-    "zone.js" : "0.8.13",
-    "rxjs" : "5.0.1",
-    "tslint" : "5.4.3",
-    "gulp-tslint" : "8.1.1",
-    "typescript" : "2.3.3",
-    "awesome-typescript-loader" : "3.0.5",
-    "codelyzer" : "3.1.1",
-    "@angular/animations" : "4.0.0",
+    "@angular/compiler": "4.0.0",
+    "@angular/platform-server": "4.0.0",
+    "@angular/platform-browser": "4.0.0",
+    "@angular/platform-browser-dynamic": "4.0.0",
+    "@angular/compiler-cli": "4.0.0",
+    "zone.js": "0.8.13",
+    "rxjs": "5.0.1",
+    "tslint": "5.4.3",
+    "gulp-tslint": "8.1.1",
+    "typescript": "2.3.3",
+    "awesome-typescript-loader": "3.0.5",
+    "codelyzer": "3.1.1",
+    "@angular/animations": "4.0.0",
     "@types/jasmine": "2.5.41",
     "istanbul-instrumenter-loader": "3.0.0",
     "jasmine-core": "3.1.0",
@@ -80,7 +82,7 @@
     "gulp-inline-ng2-template": "4.1.0",
     "gulp-hub": "0.8.0",
     "gulp-util": "3.0.8",
-    "html-loader": "0.5.5",    
+    "html-loader": "0.5.5",
     "is-docker": "1.1.0",
     "pump": "3.0.0",
     "rollup": "0.57.1",
@@ -102,6 +104,8 @@
     "travis-status": "2.0.0",
     "lodash": "4.17.5",
     "yargs": "11.0.0"
+    "travis-deploy-once": "^4.4.1",
+    "semantic-release": "^15.1.4"
   },
   "engines": {
     "node": ">=6.0.0"
