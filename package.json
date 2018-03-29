@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/carlosthe19916/w4-forms/issues"
   },
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "gulp build",
     "test": " gulp test",

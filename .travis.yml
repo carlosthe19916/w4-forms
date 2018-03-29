@@ -23,8 +23,7 @@ before_script:
 script: gulp test:ci
 
 after_success:
- - gulp coveralls
- - gulp build
+ - gulp coveralls 
  - npm run travis-deploy-once "npm run semantic-release"
 
 branches:
