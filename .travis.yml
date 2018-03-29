@@ -24,12 +24,13 @@ script: gulp test:ci
 
 after_success:
  - gulp coveralls
+ - gulp build
  - npm run travis-deploy-once "npm run semantic-release"
 
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
-    
+
 cache:
   yarn: true
   directories:
