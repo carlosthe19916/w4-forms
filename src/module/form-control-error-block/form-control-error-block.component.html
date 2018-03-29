@@ -1,0 +1,11 @@
+
+<div *ngIf="!control.valid && control.dirty">
+  <span *ngIf="control.errors.required" class="help-block">This field is required</span>
+  <span *ngIf="control.errors.minlength" class="help-block">Min length allowed: {{control.errors.minlength.requiredLength}}</span>
+  <span *ngIf="control.errors.maxlength" class="help-block">Max length allowed: {{control.errors.maxlength.requiredLength}}</span>
+  <span *ngIf="control.errors.pattern" class="help-block">Invalid input</span>
+
+  <ng-content>
+
+  </ng-content>
+</div>
