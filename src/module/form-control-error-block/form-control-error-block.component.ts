@@ -4,7 +4,7 @@ import { FormControl, ControlContainer, AbstractControl } from '@angular/forms';
 @Component({
   selector: 'w4-form-control-error-help-block',
   templateUrl: './form-control-error-block.component.html',
-  styleUrls: ['./form-control-error-block.scss']
+  styleUrls: []
 })
 export class FormControlErrorHelpBlockComponent implements OnInit {
 
