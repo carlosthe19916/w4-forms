@@ -27,7 +27,7 @@
     "demo": " gulp build:demo",
     "check-travis": " travis-status --repo=carlosthe19916/w4-forms --branch=master --fail-pending || echo 'Not yet passing'",
     "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
     "@angular/core": "4.0.0",
