@@ -95,7 +95,7 @@
     "sass-loader": "6.0.6",
     "css-loader": "0.28.7",
     "to-string-loader": "1.1.5",
-    "node-sass": "4.5.3",
+    "node-sass": "4.9.2",
     "postcss": "6.0.13",
     "postcss-strip-inline-comments": "0.1.5",
     "raw-loader": "0.5.1",
