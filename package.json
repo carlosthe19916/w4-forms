@@ -100,7 +100,7 @@
     "postcss-strip-inline-comments": "0.1.5",
     "raw-loader": "0.5.1",
     "source-map-loader": "0.2.2",
-    "travis-status": "2.0.0",
+    "travis-status": "3.0.1",
     "lodash": "4.17.4",
     "yargs": "10.0.3",
     "travis-deploy-once": "^4.4.1",
