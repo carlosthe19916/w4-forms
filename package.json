@@ -99,7 +99,7 @@
     "postcss": "6.0.13",
     "postcss-strip-inline-comments": "0.1.5",
     "raw-loader": "0.5.1",
-    "source-map-loader": "0.2.2",
+    "source-map-loader": "0.2.4",
     "travis-status": "2.0.0",
     "lodash": "4.17.4",
     "yargs": "10.0.3",
