@@ -62,7 +62,7 @@
     "webpack": "3.8.1",
     "webpack-dev-middleware": "1.12.0",
     "webpack-dev-server": "2.9.2",
-    "karma-webpack": "2.0.5",
+    "karma-webpack": "3.0.1",
     "@types/node": "8.0.44",
     "@types/lodash": "4.14.92",
     "angular-cli-ghpages": "0.5.1",
