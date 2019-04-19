@@ -82,7 +82,7 @@
     "gulp-hub": "0.8.0",
     "gulp-util": "3.0.8",
     "html-loader": "0.5.1",
-    "is-docker": "1.1.0",
+    "is-docker": "2.0.0",
     "pump": "1.0.2",
     "rollup": "0.57.0",
     "rollup-plugin-uglify": "3.0.0",
