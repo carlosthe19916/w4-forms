@@ -72,7 +72,7 @@
     "conventional-github-releaser": "1.1.13",
     "core-js": "2.5.1",
     "del": "3.0.0",
-    "gulp": "3.9.1",
+    "gulp": "4.0.2",
     "gulp-bump": "2.8.0",
     "gulp-conventional-changelog": "1.1.6",
     "gulp-coveralls": "0.1.4",
