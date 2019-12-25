@@ -70,7 +70,7 @@
     "@compodoc/gulp-compodoc": "0.0.8",
     "commitplease": "3.1.0",
     "conventional-github-releaser": "1.1.13",
-    "core-js": "2.5.1",
+    "core-js": "3.6.1",
     "del": "3.0.0",
     "gulp": "3.9.1",
     "gulp-bump": "2.8.0",
